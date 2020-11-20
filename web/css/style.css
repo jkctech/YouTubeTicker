@@ -1,0 +1,25 @@
+.navlogo {
+	height: 40px;
+}
+
+.btn-warning {
+	color: white !important;
+}
+
+.text-warning {
+  color: #ff9a03 !important;
+}
+
+@media screen and (min-width: 800px) {
+	.card {
+		min-height: 35vh;
+	}
+}
+
+.btn-light {
+	border: 1px solid #bebebe;
+}
+
+.watched {
+	opacity: 0.5;
+}
