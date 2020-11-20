@@ -37,6 +37,6 @@ while True:
 data = json.dumps(videos)
 
 # Save to file
-out = open("videos.json", "w")
+out = open("../data/videos.json", "w")
 out.write(data)
 out.close() 
