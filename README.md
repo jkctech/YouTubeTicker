@@ -19,7 +19,7 @@ This project is built as a small tool for personal use. Because of this, there i
 This mini tool has last been tested with `Apache2` and `PHP7.3` on `22-11-2020`.
 
 1. Make sure you have a Google YouTube API key.
-1. Make sure you have some webhosting space. (+- 15Mb)
+1. Make sure you have some webhosting space. (> 1Mb)
 1. Clone / Download this repository.
 1. Move all files from `web` into the webroot of your choice.
 1. Move to `includes` and copy `settings_default.php` to `settings.php`.

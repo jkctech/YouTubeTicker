@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>YouTube Ticker</title>
 		<!-- CSS -->
-		<link href="<?= $s['baseurl']; ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 		<link href="<?= $s['baseurl']; ?>css/style.css" rel="stylesheet">
 		<!-- Favicon -->
 		<link rel="apple-touch-icon" sizes="180x180" href="<?= $s['baseurl']; ?>assets/favicon/apple-touch-icon.png">
@@ -76,9 +76,9 @@
 	</footer>
 	<!-- /Footer -->
 	<!-- Scripts -->
-	<script src="<?= $s['baseurl']; ?>vendor/jquery/jquery.min.js"></script>
-	<script src="<?= $s['baseurl']; ?>vendor/fontawesome/js/all.min.js"></script>
-	<script src="<?= $s['baseurl']; ?>vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	<script src="<?= $s['baseurl']; ?>js/core.js"></script>
 	<!-- /Scripts -->
 </html>
