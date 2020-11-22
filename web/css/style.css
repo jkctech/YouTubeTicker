@@ -23,3 +23,11 @@
 .watched {
 	opacity: 0.5;
 }
+
+.border-info {
+	border-width: 2px;
+}
+
+.navbar {
+	margin-bottom: 10px;
+}
