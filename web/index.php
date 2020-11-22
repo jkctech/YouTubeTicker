@@ -1,19 +1,9 @@
 <?php
-	$infile = __DIR__ . "/../data/videos.json";
-	$datafile = __DIR__ . "/../data/videos.txt";
+	require_once(__DIR__ . "/includes/settings.php");
+	require_once(__DIR__ . "/includes/functions.php");
 
-	if (!file_exists($infile))
-		$videos = array();
-	else
-	{
-		$videos = file_get_contents($infile);
-		$videos = json_decode($videos);
-	}
-
-	if (!file_exists($datafile))
-		$watched = array();
-	else
-		$watched = explode(PHP_EOL, file_get_contents($datafile));
+	$videos = getVideos();
+	$watched = getWatched();
 ?>
 <html>
 	<head>
@@ -27,7 +17,7 @@
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<a class="navbar-brand" href="#">
-					<img src="assets/logo.jpg" class="navlogo"> Evan and Katelyn Tracker
+					<img src="<?= $s['channel']['icon']; ?>" class="navlogo"> <?= $s['title']; ?>
 				</a>
 			</nav>
 			<hr>
