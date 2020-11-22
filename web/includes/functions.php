@@ -47,7 +47,7 @@
 					$videos[] = array(
 						"title" => $item->snippet->title,
 						"id" => $item->id->videoId,
-						"url" => "https://www.youtube.com/watch?v=" + $item->id->videoId,
+						"url" => "https://www.youtube.com/watch?v=" . $item->id->videoId,
 						"thumbnail" => $item->snippet->thumbnails->medium->url
 					);
 				}
